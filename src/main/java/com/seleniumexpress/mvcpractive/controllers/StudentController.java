@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class StudentController {
 
-	@ResponseBody
+	// @ResponseBody
 	@GetMapping("/home")
 	public String showStudentHomePage() {
-		return "now you are seeing a student home page";
+		// return "now you are seeing a student home page";
+		return "home-page";
 	}
 }
